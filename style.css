@@ -13,3 +13,9 @@
 form-query {
     border-radius: 33px;
 }
+
+
+.footer {
+    background-size: cover !important;
+    height: 250px !important;
+}

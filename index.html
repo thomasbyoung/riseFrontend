@@ -11,7 +11,7 @@
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container-fluid mx-5 border-bottom pb-2">
+        <div class="container-fluid shadow-sm border-bottom pb-2">
           <a class="navbar-brand" href="#"><img src="assets/assesment_logo.svg" height="34" alt="404"></a>
 
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
@@ -20,29 +20,26 @@
 
           <div class="collapse navbar-collapse" id="navbarScroll">
             <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Health & Wellness</a>
+              <li class="nav-item px-4">
+                <a class="nav-link" href="#">Health & Wellness</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item px-4">
                 <a class="nav-link" href="#">Sustainability</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item px-4">
                 <a class="nav-link" href="#">Facts & Myths</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item px-4">
                 <a class="nav-link" href="#">Life on the Farm</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item px-4">
                 <a class="nav-link" href="#">Recipes</a>
               </li>
             </ul>
      
-            <div class="d-flex">
-                <input class="form-control py-2 rounded-pill mr-1 pr-5" type="search" value="search">
+            <div class="d-flex pl-4">
+                <input type="search" value="&#xf002" class="form-control py-2 rounded-pill mr-1 pr-5 fa fa-search">
                 <span class="input-group-append">
-                    <button class="btn rounded-pill border-0 ml-n5" type="button">
-                          <i class="fa fa-search"></i>
-                    </button>
                 </span>
             </div>
           </div>
@@ -90,15 +87,17 @@
 
       <main role="main">
 
-        <section class="jumbotron">
-          <div class="container py-5">
+        <section class="jumbotron mt-4">
+          <div class="container py-2 border-bottom">
             <h1 class="jumbotron-heading">Undeniably Devoted to Dairy</h1>
             <p class="lead text-muted">Learn why dairy and dairy products are contribute to a well-balanced diet. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
             <p>
-              <a href="#" class="btn btn-primary my-2">Main call to action</a>
-              <a href="#" class="btn btn-secondary my-2">Secondary action</a>
+              <span>Learn more:</span>
+              <a href="#" class="m-2">Podcasts</a>
+              <a href="#" class="my-2">Stories</a>
             </p>
           </div>
+          
         </section>
   
         <div class="album py-5">
@@ -106,19 +105,20 @@
   
             <div class="row">
               <div class="col-md-6">
-                <div class="card mb-4 box-shadow">
-                  <img class="card-img-top" data-src="assets/assessment_image.jpg" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="assets/assessment_image.jpg" data-holder-rendered="true">
-                  <div class="card-body">
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    <div class="d-flex justify-content-between align-items-center">
-               
+                <div class="card mb-4  shadow-sm">
+                  <img class="card-img-top IMGborder" data-src="assets/assessment_image.jpg" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="assets/assessment_image.jpg" data-holder-rendered="true">
+                  <span class="overlayTest"><i class="fa fa-star"></i> Featured</span>  
+                  <div class="text-center">
                       <small class="text-muted">9 mins</small>
-                    </div>
+                      <div class="d-flex justify-content-center">
+                        <div class="testingRec"></div>
+                      </div>
+                      <p class="card-text">Displays of Devotion, Murals Dedicated to Dairy</p>
                   </div>
                 </div>
               </div>
               <div class="col-md-3">
-                <div class="card mb-4 box-shadow">
+                <div class="card mb-4 shadow-sm">
                   <img class="card-img-top" data-src="assets/assessment_image.jpg" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="assets/assessment_image.jpg" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
                   <div class="card-body">
                     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -130,7 +130,7 @@
                 </div>
               </div>
               <div class="col-md-3">
-                <div class="card mb-3 box-shadow">
+                <div class="card mb-3 shadow-sm">
                   <img class="card-img-top" data-src="assets/assessment_image.jpg" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="assets/assessment_image.jpg" data-holder-rendered="true"style="height: 225px; width: 100%; display: block;">
                   <div class="card-body">
                     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -143,7 +143,7 @@
               </div>
   
               <div class="col-md-3">
-                <div class="card mb-3 box-shadow">
+                <div class="card mb-3 shadow-sm">
                   <img class="card-img-top" data-src="assets/assessment_image.jpg" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="assets/assessment_image.jpg" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
                   <div class="card-body">
                     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -155,7 +155,7 @@
                 </div>
               </div>
               <div class="col-md-3">
-                <div class="card mb-3 box-shadow">
+                <div class="card mb-3 shadow-sm">
                   <img class="card-img-top" data-src="assets/assessment_image.jpg" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="assets/assessment_image.jpg" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
                   <div class="card-body">
                     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -167,7 +167,7 @@
                 </div>
               </div>
               <div class="col-md-3">
-                <div class="card mb-3 box-shadow">
+                <div class="card mb-3 shadow-sm">
                   <img class="card-img-top" data-src="assets/assessment_image.jpg" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="assets/assessment_image.jpg" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
                   <div class="card-body">
                     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -180,7 +180,7 @@
               </div>
   
               <div class="col-md-3">
-                <div class="card mb-3 box-shadow">
+                <div class="card mb-3 shadow-sm">
                   <img class="card-img-top" data-src="assets/assessment_image.jpg" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="assets/assessment_image.jpg" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
                   <div class="card-body">
                     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -199,12 +199,35 @@
 
 
       <footer class="text-muted bg-dark footer">
-        <div class="container">
-          <p class="float-right">
-            <a href="#">Back to top</a>
-          </p>
-          <p>Album example is © Bootstrap, but please download and customize it for yourself!</p>
-          <p>New to Bootstrap? <a href="../../">Visit the homepage</a> or read our <a href="../../getting-started/">getting started guide</a>.</p>
+        <div class="container p-4">
+          <div class="row">
+            <div class="col-2 p-2">yoyo</div>
+            <div class="col-2 p-2">yoyo</div>
+            <div class="col-2 p-2">yoyo</div>
+            <div class="col-6 p-2">
+              <div class="row">
+                <div class="col-12 d-flex justify-content-end">
+                  <p>
+                    If you have any questions or comments about any of the</br>
+                    content of this site, please contact us.
+                  </p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-10 d-flex justify-content-end">
+                  <i class="fa fa-facebook-f fa-2x p-4"></i>
+                  <i class="fa fa-twitter fa-2x p-4"></i>
+                  <i class="fa fa-instagram fa-2x p-4"></i>
+                  <i class="fa fa-pinterest-p fa-2x p-4"></i>
+                  <i class="fa fa-rss fa-2x p-4"></i>
+                  
+                </div>
+                <div class="col-2">
+                  <button type="button" class="mt-4 px-4 button rounded-pill">Contact</button>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </footer>
 

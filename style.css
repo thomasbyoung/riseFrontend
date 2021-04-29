@@ -59,19 +59,6 @@ form-query {
   border-radius: 33px;
 }
 
-.footer {
-  padding: 2.5rem 0;
-  color: white;
-  font-family: "Open Sans", sans-serif !important;
-  background-color: #888888;
-  border-top: 0.05rem solid #e5e5e5;
-}
-
-.footerHeader {
-  font-weight: 700;
-  font-size: 22px;
-}
-
 .copy {
   font-family: "Open Sans", sans-serif !important;
   font-size: 16px !important;
@@ -187,4 +174,17 @@ form-query {
   font-weight: 600;
   font-style: normal;
   font-size: 28px;
+}
+
+.footer {
+  padding: 2.5rem 0;
+  color: white;
+  font-family: "Open Sans", sans-serif !important;
+  background-color: #888888;
+  border-top: 0.05rem solid #e5e5e5;
+}
+
+.footerHeader {
+  font-weight: 700;
+  font-size: 22px;
 }

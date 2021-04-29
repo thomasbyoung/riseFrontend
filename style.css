@@ -30,28 +30,96 @@ form-query {
 }
 
 .footer {
+  color:white;
+  background-color: #888888;
   background-size: cover !important;
   height: 250px !important;
 }
 
-.testingRec {
+.copy{
+  font-family: "Open Sans", sans-serif !important;
+  font-size: 16px !important;
+}
+
+.links {
+  font-family: "Open Sans", sans-serif !important;
+  font-size: 14px !important;
+}
+
+.links a{
+  color: #ff6900;
+  text-decoration: none;
+}
+
+.underline {
   width: 38px;
   height: 5px;
-  background: red;
 }
 
-.IMGborder {
+.videoBorder {
   border-style: solid;
-  border-color: aqua;
+  border-color: #0084ac;
 }
 
-.overlayTest {
+.podcastBorder {
+  border-style: solid;
+  border-color: #ff6900;
+}
+
+.overlay {
   position: absolute;
   top: 2px;
   display: block;
   color: white;
   padding: 0.2rem 0.8rem;
-  background-color: aqua;
+}
+
+.cyan{
+  background: #0084ac;
+}
+.orange{
+  background: #ff6900;
+}
+.green{
+  background: #7cb82f;
+}
+
+.videoColor{
+  background-color: #0084ac;
+}
+
+.podcastColor{
+  background-color: #ff6900;
+}
+
+.cardFeature{
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+}
+
+.cardType{
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #b2b2b2;
+}
+
+.cardTitle{
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+}
+
+.cardTitleLarge{
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 28px;
 }
 
 .button {

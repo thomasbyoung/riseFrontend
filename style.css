@@ -31,9 +31,15 @@ form-query {
 
 .footer {
   color:white;
+  font-family: "Open Sans", sans-serif !important;
   background-color: #888888;
   background-size: cover !important;
-  height: 250px !important;
+  height: 300px !important;
+}
+
+.footerHeader{
+  font-weight: 700;
+  font-size: 22px;
 }
 
 .copy{

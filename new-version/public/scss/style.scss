@@ -1,5 +1,25 @@
+$brandon-font: brandon-grotesque, sans-serif;
+$open-sans-font: "Open Sans", sans-serif;
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+.navbar-nav {
+  float: none;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}
+
+.navbar-nav > li {
+  display: inline-block;
+  float: none;
+}
+
+.nav-link {
+  font-family: $open-sans-font !important;
+  font-size: 18px !important;
 }

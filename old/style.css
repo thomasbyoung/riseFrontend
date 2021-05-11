@@ -74,6 +74,13 @@ form-query {
   text-decoration: none;
 }
 
+.cardImagePosition {
+  height: 225px;
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
 .underline {
   width: 38px;
   height: 5px;

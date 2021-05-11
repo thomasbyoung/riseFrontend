@@ -68,7 +68,7 @@
         <div class="album py-5">
           <div class="container">
   
-            <div class="row">
+            <div class="row" id="cardAddition">
               <div class="col-md-6 d-flex align-self-stretch">
                 <div class="card mb-4  shadow-sm">
                   <img class="card-img-top videoBorder cardImagePosition" data-src="assets/assessment_image.jpg" alt="404"  src="assets/assessment_image.jpg" data-holder-rendered="true">
@@ -142,7 +142,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-md-3">
+              <div class="col-md-3 d-flex align-self-stretch"">
                 <div class="card mb-4  shadow-sm">
                   <img class="card-img-top cardImagePosition" data-src="assets/assessment_image.jpg" alt="404" src="assets/assessment_image.jpg" data-holder-rendered="true">
                   <div class="text-center">
@@ -170,15 +170,18 @@
                   </div>
                 </div>
               </div>
-              <div class="col-md-12">
-                <div class="d-flex justify-content-center">
-                  <span class="seebtn orange">See More</span>
-                </div>
+              <!-- <div class="row" id="cardAddition"></div> -->
 
+            </div>
+            <div class="col-md-12">
+              <div class="d-flex justify-content-center">
+                <span class="seebtn orange" onclick="moreCards()">See More</span>
               </div>
             </div>
           </div>
         </div>  
+
+
 
       </main>
       <!-- Need to finish working on Footer section - not responsive yet -->
@@ -273,6 +276,8 @@
           </div>
         </div>
       </footer>
+      <script src="script.js"></script>
+    
 
       <script src="https://use.fontawesome.com/519148aba8.js"></script><script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
